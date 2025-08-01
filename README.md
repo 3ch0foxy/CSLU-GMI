@@ -33,22 +33,3 @@ Hello everyone! This repository contains :
 
 ## Challenge Files Download
 
-The challenge files are provided as split archives. To use them:
-
-1. Install [GitHub CLI](https://cli.github.com/)
-2. Run these commands:
-```powershell
-# Download all challenge files
-gh release download -D ./challenges
-
-# Reassemble and extract
-cd challenges
-7z x FINAL_challenges.7z.001
-7z x compressed_challenges.7z
-```
-3. You'll now have these memory images:
-   - `exfil.raw`
-   - `persistence.raw`
-   - `rogue.raw`
-
-> Note: Total extracted size is 26GB. Ensure you have sufficient disk space.
