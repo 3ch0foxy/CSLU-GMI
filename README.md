@@ -1,6 +1,7 @@
 # CSLU-GMI | Memory Analysis Workshop Materials
+**Repository**: https://github.com/3ch0foxy/CSLU-GMI
 
-Hello everyone! This repository contains materials and tools needed for the memory analysis workshop.
+Hello everyone! This repository contains :
 
 ## Required Tools
 
@@ -29,3 +30,25 @@ Hello everyone! This repository contains materials and tools needed for the memo
 > - Windows 10/11 (64-bit)  
 > - 8GB+ RAM (16GB recommended)  
 > - 50GB+ free disk space (For the challenges)
+
+## Challenge Files Download
+
+The challenge files are provided as split archives. To use them:
+
+1. Install [GitHub CLI](https://cli.github.com/)
+2. Run these commands:
+```powershell
+# Download all challenge files
+gh release download -D ./challenges
+
+# Reassemble and extract
+cd challenges
+7z x FINAL_challenges.7z.001
+7z x compressed_challenges.7z
+```
+3. You'll now have these memory images:
+   - `exfil.raw`
+   - `persistence.raw`
+   - `rogue.raw`
+
+> Note: Total extracted size is 26GB. Ensure you have sufficient disk space.
