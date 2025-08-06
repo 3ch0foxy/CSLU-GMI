@@ -31,5 +31,6 @@ Hello everyone! This repository contains :
 > - 8GB+ RAM (16GB recommended)  
 > - 50GB+ free disk space (For the challenges)
 
+Goodluck! Have fun:>
 ## Challenge Files Download
 
